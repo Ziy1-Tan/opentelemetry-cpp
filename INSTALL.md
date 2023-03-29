@@ -218,9 +218,9 @@ Bazel](https://docs.bazel.build/versions/3.7.0/install.html) guide.
 http_archive(
     name = "io_opentelemetry_cpp",
     sha256 = "<sha256>",
-    strip_prefix = "opentelemetry-cpp-1.0.1",
+    strip_prefix = "opentelemetry-cpp-1.8.0",
     urls = [
-        "https://github.com/open-telemetry/opentelemetry-cpp/archive/refs/tags/v1.0.1.tar.gz"
+        "https://github.com/open-telemetry/opentelemetry-cpp/archive/refs/tags/v1.8.0.tar.gz"
     ],
 )
 
